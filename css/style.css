@@ -94,8 +94,6 @@
     text-align: center;
     align-items: center;
 
-
-
 }
 
 .web-development {
@@ -104,4 +102,40 @@
     padding: 80px 90px;
     border-radius: 15px;
 
+
 }
+
+.coding {
+    background-color: #fdfdfd  ;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 30px;
+
+}
+
+.coding-title {
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.btn-coding {
+    background-color: white;
+    color: #0D1321;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: Azeret Mono;
+    font-weight: 600;
+    border: 1px solid #0D1321;
+
+}
+
+.coding-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}  
